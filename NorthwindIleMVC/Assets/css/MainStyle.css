@@ -1,0 +1,39 @@
+﻿*,h1,h2,h3,h4,h5,h6{
+    margin:0; padding:0;
+}
+body {
+    font-family:Calibri;
+}
+.mainContainer{
+    width:1200px;
+    min-height:600px;
+    border:1px solid silver;
+    margin-left:auto;
+    margin-right:auto;
+}
+.topBar
+{
+    color:#03b2cb;
+    padding:15px;
+    border-bottom:1px solid silver;
+}
+.menuBar {
+    padding: 7px;
+    border-bottom: 1px solid silver;
+    background-color:#c600ff;
+}
+    .menuBar a{
+        padding:5px 7px;
+        text-decoration:none;
+        color:white;
+        font-weight:900;
+        font-size:13pt;
+        border-right:1px solid white;
+    }
+        .menuBar a:hover
+        {
+            text-decoration:underline;
+        }
+        .contentContainer {
+            padding:15px;
+        }

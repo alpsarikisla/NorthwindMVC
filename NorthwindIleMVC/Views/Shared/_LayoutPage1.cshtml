@@ -4,10 +4,26 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link href="~/Assets/css/MainStyle.css" rel="stylesheet" />
+    @RenderSection("styles",false)
 </head>
 <body>
-    <div>
-        @RenderBody()
+    <div class="mainContainer">
+        <div class="topBar">
+            <h1>NorthWind Ticaret </h1><h4>Admin Panel</h4>
+        </div>
+        <div class="menuBar">
+            <a href="@Url.Action("Index","Home")">Anasayfa</a>
+            <a href="@Url.Action("Index","Category")">Kategori İşlemleri</a>
+            <a href="#">Tedarikçi İşlemleri</a>
+            <a href="#">Ürün İşlemleri</a>
+            <a href="#">Müşteriler</a>
+            <a href="#">Satışlar</a>
+        </div>
+        <div class="contentContainer">
+            @RenderBody()
+        </div>
     </div>
+    
 </body>
 </html>
