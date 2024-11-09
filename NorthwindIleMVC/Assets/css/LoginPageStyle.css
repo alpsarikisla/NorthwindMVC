@@ -1,0 +1,82 @@
+﻿*,h1,h2,h3,h4,h5,h6{
+    margin:0;padding:0;
+}
+body {
+    background-color: #560FB3;
+    font-family:Calibri;
+}
+.backgroundTop
+{
+    height:400px;
+    background-image:url(../siteImages/login_bg.jpg);
+    background-size:cover;
+}
+.loginPanel
+{
+    border-radius:20px;
+   /* background-color:rgba(255,255,255, 0.97);*/
+   background-color:white;
+    width:400px;
+    min-height:300px;
+    padding:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-150px;
+    text-align:center;
+}
+.lockIcon {
+    width: 120px;
+    height: 120px;
+    border: 5px solid white;
+    border-radius: 65px;
+    background-image: url(../siteImages/lock.jpg);
+    background-size:cover;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.panelTitle {
+    color: #5ED7FF;
+    margin-bottom:20px;
+}
+.row{
+    margin:20px 0;
+    text-align:left;
+}
+.row label{
+    color:dimgray;
+    margin-left:7px;
+}
+    .row .textbox {
+        background-color: #eeeeee;
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        padding: 10px;
+        border-radius: 50px;
+        border: none;
+    }
+.loginButton {
+    background-color: #5ED7FF;
+    color: white;
+    padding: 10px 100px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 900;
+}
+    .loginButton:hover {
+        background-color: #0ca5d8;
+        cursor:pointer;
+    }
+.errorMessage {
+    color: red;
+    margin-left: 10px;
+}
+.errorPanel
+{
+    background-color:#e987bd;
+    border-radius:10px;
+    padding:10px;
+    color:white;
+}
